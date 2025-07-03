@@ -3,9 +3,9 @@ import { catchAsyncError } from "../middlewares/catchAsyncError.js";
 import { User } from "../models/userModel.js";
 import twilio from "twilio";
 import { sendEmail } from "../utils/sendEmail.js";
-import { config } from "dotenv";
+// import { config } from "dotenv";
 import { sendToken } from "../utils/sendToken.js";
-config({ path: "./.env" });
+// config({ path: "./.env" });
 import crypto from "crypto";
 
 const client = twilio(
