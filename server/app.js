@@ -22,7 +22,7 @@ app.use(
 );
 
 // ✅ Preflight (OPTIONS) handler for all routes
-app.options("*", cors());
+// app.options("*", cors());
 
 // ✅ Middleware setup
 app.use(cookieParser());
